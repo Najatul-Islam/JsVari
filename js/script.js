@@ -1,23 +1,53 @@
-alert ("connected Done")
+// input start
+let age = 20;
+let num = 30;
+// if start
+if(age > 18){
+   if(num < 40){
+      alert("You can come");
+}
+else{
+   alert("You cannot come");
+}
+}
+else{
+   alert("You cannot come");
+}
 
-console.log("Welcome to JavaScript");
+let name = "Najat";
+let city = "Dhaka";
+console.log("My name is " , name , " and I live in " , city);
+console.log(`My name is ${name} and I live in ${city}`);
 
 
-var x = 5;
-var y = 10;
-var z = x + y;
-console.log(z);
+let number= 100;
 
-const g = 9.8;
-console.log(g);
+if (number == 0) {
+   console.log("Number is zero");
+}
+else if (number > 0 && number <= 20) {
+       console.log("Number is between 1 and 20");
+}
+else if (number > 20 && number <= 40) {
+         console.log("Number is between 21 and 40");
+}
+else if (number > 40 && number <= 60) {
+       console.log("Number is between 41 and 60");
+}
+else if (number > 60 && number <= 100) {
+         console.log("Congratulations!");
+}
+else{
+   console.log("You must Go");
+}
+// if end
+let s= 5
 
-let product = 10;
-console.log(product+" "+"/"+ " "+2+" "+"="+" "+5);
+for( s==5; s<=50; s++){
+   console.log(s);
+}
 
-let age =15;
- if (age < 18) {
-    console.log("You are not eligible to vote");
- }
- else{
-    console.log("You are eligible to vote");
- }
+
+
+
+// inputend
