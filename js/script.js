@@ -47,7 +47,70 @@ for( s==5; s<=50; s++){
    console.log(s);
 }
 
-
-
-
 // inputend
+
+// loop start
+
+let multiply = 123;
+
+for(let i=1; i<=10; i++){
+   console.log(`${multiply} x ${i} = ${multiply * i}`);
+}
+// loop end
+
+// function start
+// normal function start
+function food(){
+   console.log("I love biryani");
+}
+food();
+// normal function end
+
+// nameless function start
+
+let drinks = function(){
+   console.log("I love tea");
+}
+drinks();
+// nameless function end
+ 
+// arrow funtion start
+
+let travel = () => {
+   console.log("I love to travel");
+}
+travel();
+// arrow funtion end
+// function end
+
+// array start
+ 
+let fruits =[ "Mango", "Banana", "Orange", "Apple","Lichi"]
+console.log(fruits);
+console.log(fruits[0]);
+
+// array  end
+
+// object start
+  
+let student = {
+   name: "Najat",
+   age: 15,
+   city: "Dhaka",
+}
+console.log(student);
+console.log(student.name);
+//  object end 
+
+// array and obj start
+
+let students = [
+   {name: "Najat", age: 15, city: "Dhaka"},
+   {name: "Nujhu", age: 16, city: "Noakhali"},
+   {name: "Tashfi", age: 17, city: "Dhaka"},
+]
+console.log(students);
+console.log(students[1].name);
+console .log(students[2].city);
+console .log(students[0].name);
+// array and obj end
