@@ -85,9 +85,14 @@ travel();
 
 // array start
  
-let fruits =[ "Mango", "Banana", "Orange", "Apple","Lichi"]
+let fruits =[ "Mango", "Banana", "Orange", "Apple","Lichi"];
+//  fruits.push("Grapes");
 console.log(fruits);
 console.log(fruits[0]);
+
+let flowers = new Array("Rose", "Jasmin", "Sunflower,Tulip");
+console.log(flowers);
+console.log(flowers[2]);
 
 // array  end
 
@@ -114,3 +119,36 @@ console.log(students[1].name);
 console .log(students[2].city);
 console .log(students[0].name);
 // array and obj end
+
+var myVariable = 10;
+console.log(myVariable);
+
+let myLetVariable = 20;
+console.log(myLetVariable);
+
+const myConstVariable = 30;
+console.log(myConstVariable);
+// variable end
+
+let x = 3;
+
+if (x != 10) {
+  console.log("x is not equal to 3");
+}
+else {
+  console.log("x is equal to 3");
+}
+
+let y = 0;
+for ( let i = 0 ; i < 5 ; i++){
+   y +=i;
+}
+console.log(y);
+
+let z = [ 1, 2, 3];
+
+ z[5] = 11;
+console.log(z.length);
+
+
+
